@@ -13,7 +13,7 @@ import java.sql.Statement;
  */
 public class DB {
 
-    public static Connection myinstance;
+    private static Connection myinstance;
 
     public static void updater(String para) throws ClassNotFoundException, SQLException {
         if (myinstance == null) {
